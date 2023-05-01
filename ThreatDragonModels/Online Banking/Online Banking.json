@@ -170,6 +170,145 @@
             "labels": [
               "Credenciales"
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Estatus de cliente",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "fd638d14-0e7b-4936-84a8-05b580d0978f",
+            "source": {
+              "cell": "b31352c6-d305-4f49-a13f-5d08dac21623"
+            },
+            "target": {
+              "cell": "30cab935-a2f1-4a64-9628-e26f39f60dac"
+            },
+            "vertices": [
+              {
+                "x": 390,
+                "y": 300
+              }
+            ],
+            "labels": [
+              "Estatus de cliente"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verificación",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "e1271497-56dc-49ab-8b3c-e1edfb3e6404",
+            "source": {
+              "cell": "b31352c6-d305-4f49-a13f-5d08dac21623"
+            },
+            "target": {
+              "cell": "01c258be-e058-4055-826a-6b48df479304"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": 120
+              }
+            ],
+            "labels": [
+              "Verificación"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Confirmación",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1b113354-695e-421e-a614-ee07b15070ae",
+            "source": {
+              "cell": "01c258be-e058-4055-826a-6b48df479304"
+            },
+            "target": {
+              "cell": "b31352c6-d305-4f49-a13f-5d08dac21623"
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 290
+              },
+              {
+                "x": 630,
+                "y": 240
+              }
+            ],
+            "labels": [
+              "Confirmación"
+            ]
           }
         ]
       }
