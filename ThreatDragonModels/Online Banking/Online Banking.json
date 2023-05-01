@@ -56,8 +56,8 @@
                 "text": "VISITANTE"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -72,8 +72,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "5a28fb67-7d4a-4f72-ad21-60b97e4ccc96",
+                  "title": "New LINDDUN threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Linkability",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide mitigation or prevention for this threat",
+                  "modelType": "LINDDUN",
+                  "new": true,
+                  "number": 0,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -633,6 +647,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
