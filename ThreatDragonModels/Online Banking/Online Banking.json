@@ -19,6 +19,31 @@
         "cells": [
           {
             "position": {
+              "x": 480.9999999999995,
+              "y": 85.00000000000128
+            },
+            "size": {
+              "width": 512.0000000000001,
+              "height": 240
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "DMZ 1"
+              }
+            },
+            "id": "6627b4b4-69c0-40ca-8aab-194098f7fb13",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "DMZ 1",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 160,
               "y": 170
             },
@@ -38,8 +63,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "30cab935-a2f1-4a64-9628-e26f39f60dac",
             "zIndex": 1,
+            "id": "30cab935-a2f1-4a64-9628-e26f39f60dac",
             "data": {
               "type": "tm.Actor",
               "name": "VISITANTE",
@@ -72,8 +97,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "b31352c6-d305-4f49-a13f-5d08dac21623",
             "zIndex": 2,
+            "id": "b31352c6-d305-4f49-a13f-5d08dac21623",
             "data": {
               "type": "tm.Process",
               "name": "AUTENTICACIÓN",
@@ -154,6 +179,9 @@
               "threats": []
             },
             "id": "a1483eed-08eb-4f27-91cf-6ffc2fc94d6b",
+            "labels": [
+              "Credenciales"
+            ],
             "source": {
               "x": 270,
               "y": 180
@@ -166,9 +194,6 @@
                 "x": 380,
                 "y": 120
               }
-            ],
-            "labels": [
-              "Credenciales"
             ]
           },
           {
@@ -200,6 +225,9 @@
               "threats": []
             },
             "id": "fd638d14-0e7b-4936-84a8-05b580d0978f",
+            "labels": [
+              "Estatus de cliente"
+            ],
             "source": {
               "cell": "b31352c6-d305-4f49-a13f-5d08dac21623"
             },
@@ -211,9 +239,6 @@
                 "x": 390,
                 "y": 300
               }
-            ],
-            "labels": [
-              "Estatus de cliente"
             ]
           },
           {
@@ -245,6 +270,9 @@
               "threats": []
             },
             "id": "e1271497-56dc-49ab-8b3c-e1edfb3e6404",
+            "labels": [
+              "Verificación"
+            ],
             "source": {
               "cell": "b31352c6-d305-4f49-a13f-5d08dac21623"
             },
@@ -256,9 +284,6 @@
                 "x": 710,
                 "y": 120
               }
-            ],
-            "labels": [
-              "Verificación"
             ]
           },
           {
@@ -290,6 +315,9 @@
               "threats": []
             },
             "id": "1b113354-695e-421e-a614-ee07b15070ae",
+            "labels": [
+              "Confirmación"
+            ],
             "source": {
               "cell": "01c258be-e058-4055-826a-6b48df479304"
             },
@@ -305,9 +333,6 @@
                 "x": 630,
                 "y": 240
               }
-            ],
-            "labels": [
-              "Confirmación"
             ]
           }
         ]
