@@ -44,6 +44,26 @@
           },
           {
             "position": {
+              "x": 106.33333333333314,
+              "y": 359.9999999999999
+            },
+            "size": {
+              "width": 789.3333333333337,
+              "height": 370
+            },
+            "shape": "trust-boundary-box",
+            "id": "9e6570ee-6fe6-454d-99a5-63940bb1cad7",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 160,
               "y": 170
             },
@@ -56,8 +76,8 @@
                 "text": "VISITANTE"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 3,
+                "stroke": "#333333",
+                "strokeWidth": 1,
                 "strokeDasharray": null
               }
             },
@@ -72,22 +92,8 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "5a28fb67-7d4a-4f72-ad21-60b97e4ccc96",
-                  "title": "New LINDDUN threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Linkability",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide mitigation or prevention for this threat",
-                  "modelType": "LINDDUN",
-                  "new": true,
-                  "number": 0,
-                  "score": ""
-                }
-              ]
+              "hasOpenThreats": false,
+              "threats": []
             }
           },
           {
@@ -378,6 +384,9 @@
               "threats": []
             },
             "id": "a412628e-f033-4a03-b894-001458f0e7a0",
+            "labels": [
+              "Petición WEB de transacción"
+            ],
             "source": {
               "x": 240,
               "y": 460
@@ -387,61 +396,33 @@
             },
             "vertices": [
               {
+                "x": 370,
+                "y": 690
+              },
+              {
+                "x": 460,
+                "y": 500
+              },
+              {
+                "x": 210,
+                "y": 520
+              },
+              {
                 "x": 280,
                 "y": 450
+              },
+              {
+                "x": 320,
+                "y": 540
+              },
+              {
+                "x": 320,
+                "y": 440
               },
               {
                 "x": 350,
                 "y": 420
               }
-            ],
-            "labels": [
-              "Petición WEB de transacción"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Respuesta de transacción WEB",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "HTTPS",
-              "isEncrypted": true,
-              "isPublicNetwork": true,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "d7baf0d2-0062-4aca-95fd-cac8ae54dc83",
-            "source": {
-              "cell": "d9418e1e-84e9-4d01-9b0d-83dbb8493b3e"
-            },
-            "target": {
-              "cell": "c4069172-7694-4b3d-8fe3-82dcd1c508e5"
-            },
-            "vertices": [
-              {
-                "x": 360,
-                "y": 570
-              }
-            ],
-            "labels": [
-              "Respuesta de transacción WEB"
             ]
           },
           {
@@ -473,6 +454,9 @@
               "threats": []
             },
             "id": "e88effd3-d5f1-48ca-aa19-99711b8879fc",
+            "labels": [
+              "Petición de transacción BD"
+            ],
             "source": {
               "cell": "d9418e1e-84e9-4d01-9b0d-83dbb8493b3e"
             },
@@ -484,9 +468,6 @@
                 "x": 650,
                 "y": 390
               }
-            ],
-            "labels": [
-              "Petición de transacción BD"
             ]
           },
           {
@@ -518,6 +499,9 @@
               "threats": []
             },
             "id": "945bf594-eeed-4bc4-8189-141c43f4eb68",
+            "labels": [
+              "Respuesta de transacción BD"
+            ],
             "source": {
               "cell": "bdc9682c-c4f5-4251-a999-8cc8b4da16f5"
             },
@@ -529,15 +513,12 @@
                 "x": 670,
                 "y": 580
               }
-            ],
-            "labels": [
-              "Respuesta de transacción BD"
             ]
           },
           {
             "position": {
-              "x": 130,
-              "y": 450
+              "x": 106.33333333333314,
+              "y": 514.9999999999999
             },
             "size": {
               "width": 112.5,
@@ -571,7 +552,7 @@
           {
             "position": {
               "x": 451,
-              "y": 430
+              "y": 474.9999999999999
             },
             "size": {
               "width": 100,
@@ -604,8 +585,8 @@
           },
           {
             "position": {
-              "x": 797,
-              "y": 450
+              "x": 737,
+              "y": 494.9999999999999
             },
             "size": {
               "width": 120,
@@ -647,6 +628,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 2
   }
 }
