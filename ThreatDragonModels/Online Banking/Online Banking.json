@@ -334,6 +334,40 @@
                 "y": 240
               }
             ]
+          },
+          {
+            "position": {
+              "x": 130,
+              "y": 450
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "CLIENTE"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "c4069172-7694-4b3d-8fe3-82dcd1c508e5",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "CLIENTE",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       }
