@@ -10,16 +10,15 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 0,
-        "title": "OB1",
+        "id": 2,
+        "title": "New LINDDUN diagram",
         "diagramType": "LINDDUN",
         "placeholder": "New LINDDUN diagram description",
         "thumbnail": "./public/content/images/thumbnail.linddun.jpg",
-        "version": "2.0.3",
-        "description": "OB1.1"
+        "version": "2.0.3"
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }
