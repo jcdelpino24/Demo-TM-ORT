@@ -32,8 +32,8 @@
                 "text": "DMZ 1"
               }
             },
-            "id": "6627b4b4-69c0-40ca-8aab-194098f7fb13",
             "zIndex": -1,
+            "id": "6627b4b4-69c0-40ca-8aab-194098f7fb13",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "DMZ 1",
@@ -353,29 +353,81 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Petición WEB de transacción",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "hasOpenThreats": false,
               "threats": []
             },
             "id": "a412628e-f033-4a03-b894-001458f0e7a0",
             "source": {
               "x": 240,
-              "y": 470
+              "y": 460
             },
             "target": {
               "cell": "d9418e1e-84e9-4d01-9b0d-83dbb8493b3e"
             },
             "vertices": [
               {
+                "x": 280,
+                "y": 450
+              },
+              {
                 "x": 350,
                 "y": 420
               }
+            ],
+            "labels": [
+              "Petición WEB de transacción"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta de transacción WEB",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "HTTPS",
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "d7baf0d2-0062-4aca-95fd-cac8ae54dc83",
+            "source": {
+              "cell": "d9418e1e-84e9-4d01-9b0d-83dbb8493b3e"
+            },
+            "target": {
+              "cell": "c4069172-7694-4b3d-8fe3-82dcd1c508e5"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 570
+              }
+            ],
+            "labels": [
+              "Respuesta de transacción WEB"
             ]
           },
           {
@@ -399,8 +451,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "c4069172-7694-4b3d-8fe3-82dcd1c508e5",
             "zIndex": 11,
+            "id": "c4069172-7694-4b3d-8fe3-82dcd1c508e5",
             "data": {
               "type": "tm.Actor",
               "name": "CLIENTE",
@@ -433,8 +485,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "d9418e1e-84e9-4d01-9b0d-83dbb8493b3e",
             "zIndex": 12,
+            "id": "d9418e1e-84e9-4d01-9b0d-83dbb8493b3e",
             "data": {
               "type": "tm.Process",
               "name": "TRANSACCIÓN",
