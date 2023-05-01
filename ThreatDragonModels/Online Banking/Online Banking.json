@@ -16,7 +16,76 @@
         "placeholder": "New LINDDUN diagram description",
         "thumbnail": "./public/content/images/thumbnail.linddun.jpg",
         "version": "2.0.3",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 160,
+              "y": 170
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "VISITANTE"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "30cab935-a2f1-4a64-9628-e26f39f60dac",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "VISITANTE",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": 145
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "AUTENTICACIÓN"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "b31352c6-d305-4f49-a13f-5d08dac21623",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "AUTENTICACIÓN",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 3,
